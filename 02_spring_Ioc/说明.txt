@@ -1,0 +1,3 @@
+1.如何使用核心容器接口的实现类去获得对象
+2.核心容器的两个接口的区别（ApplicationContext和BeanFactory）
+3.Application的三个常用实现类的区别

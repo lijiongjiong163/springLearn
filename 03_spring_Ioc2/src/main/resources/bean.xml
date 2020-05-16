@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--    把对象的创建交给spring来管理-->
+
+    <!--    在工厂里，接收beanName，然后通过properties对象找到beanPath，再用反射创造对象并进行返回-->
+
+
+    <!--    第一种方式：使用默认构造函数创建。
+        在spring的配置文件中使用bean标签，配以id（beanName）和class(beanPath)属性之后，且没有其他属性和标签时，
+        采用的就是默认构造函数创建bean对象，此时如果类中没有默认构造函数，则对象无法创建-->
+
+    <!--bean的作用范围调整
+    bean标签的scope属性：
+        作用：用来制定bean的作用范围
+        取值：
+            singleton:单例的（默认值）
+            prototype:多例的
+            request：作用于web应用的请求范围，每一次HTTP请求便会产生一次实例对象，生命周期仅在当前HTTP请求作用，HTTP销毁，则该对象销毁。（不常用）
+            session：作用于web应用的会话范围
+            global session：（不常用）
+        -->
+
+    <!--
+        bean对象的生命周期
+            单例对象：
+                出生：当容器创建时
+                活者：容器只要还在，就活着
+                死亡：容器销毁，对象消亡
+                总结：单例对象的生命周期和容器相同
+            多例对象：
+                出生：当我们使用对象（getbean（）方法）时spring为我们创建
+                活着：对象只要是再使用过程中就一直活着。
+                死亡：当对象长时间不用，且没有别的对象引用的时候，由GC处理
+
+    -->
+    <bean id="testService" class="com.ljj.Ioc.Service.impl.testServiceImpl" scope="prototype" init-method="init" destroy-method="destory"></bean>
+
+    <!--    第二种方式：使用普通工厂中的方法创建对象（使用某个类中的方法创建对象），并存入spring容器
+        <bean id="instanceFactory" class="com.ljj.Ioc.factory.InstanceFactory"></bean>
+        <bean id ="testService" factory-bean="instanceFactory" factory-method="getService"></bean>
+    -->
+    <!--    第三种方式：使用工厂中的静态方法创建对象（使用某个类中的静态方法创建对象），并存入spring容器
+        <bean id="testService" class="com.ljj.Ioc.factory.StaticFactory" factory-method="getService"></bean>-->
+
+
+</beans>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/jdbc_demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_Ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_Ioc2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_DI/pom.xml" />
+        <option value="$PROJECT_DIR$/02_spring_Ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/01_jdbc_demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/03spring_Ioc2/pom.xml" />
+        <option value="$PROJECT_DIR$/04_spring_DI/pom.xml" />
+        <option value="$PROJECT_DIR$/05_spring_anno_Ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/06_account_xmlioc/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
