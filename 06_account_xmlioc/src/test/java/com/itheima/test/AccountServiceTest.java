@@ -34,6 +34,7 @@ public class AccountServiceTest {
     @Test
     public void testTransfer() {
         as.transfer("ccc","aaa",700f);
-        System.out.println("转账成功！");
+
+
     }
 }
