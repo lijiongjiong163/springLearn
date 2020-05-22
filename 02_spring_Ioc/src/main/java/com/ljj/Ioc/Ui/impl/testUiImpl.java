@@ -2,16 +2,10 @@ package com.ljj.Ioc.Ui.impl;
 
 
 import com.ljj.Ioc.Dao.testDao;
-import com.ljj.Ioc.Service.impl.testServiceImpl;
 import com.ljj.Ioc.Service.testService;
 import com.ljj.Ioc.Ui.testUi;
-import org.springframework.beans.factory.FactoryBean;
-import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.context.support.FileSystemXmlApplicationContext;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.Resource;
 
 public class testUiImpl implements testUi {
     /**
@@ -33,7 +27,6 @@ public class testUiImpl implements testUi {
          *
          */
         ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");//执行完直接创建号对象放容器里
-
         //下面这句也行，但不建议用
         //FileSystemXmlApplicationContext ac = new FileSystemXmlApplicationContext("D:\\Idea_workspace\\spring\\spring_Ioc\\src\\main\\resources\\bean.xml");
         //2.根据id获取bean对象，下面两种都行
