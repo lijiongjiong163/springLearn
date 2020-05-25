@@ -8,13 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="01_jdbc_demo1" />
         <module name="05_spring_anno_Ioc" />
+        <module name="Proxy" />
         <module name="spring_Ioc2 (1)" />
         <module name="04_spring_DI" />
         <module name="03_spring_Ioc2" />
-        <module name="spring_Ioc2" />
-        <module name="spring_Ioc" />
-        <module name="06_account_xmlioc" />
         <module name="02_spring_Ioc" />
+        <module name="spring_Ioc" />
+        <module name="spring_Ioc2" />
+        <module name="06_account_xmlioc" />
         <module name="reflect" />
       </profile>
     </annotationProcessing>
@@ -26,6 +27,7 @@
       <module name="05_spring_anno_Ioc" target="1.5" />
       <module name="06_account_xmlioc" target="6" />
       <module name="06_spring_anno_withoutxml" target="1.5" />
+      <module name="Proxy" target="6" />
       <module name="reflect" target="1.5" />
       <module name="spring_Ioc" target="1.5" />
       <module name="spring_Ioc (1)" target="1.5" />
