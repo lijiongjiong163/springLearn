@@ -33,7 +33,9 @@ public class AccountServiceTest {
     }
     @Test
     public void testTransfer() {
+
         as.transfer("ccc","aaa",700f);
+       // as.findAllAccount();
 
 
     }
