@@ -4,15 +4,15 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- * 代购：去工厂买东西，卖给顾客
+ * 代购公司：让自己的员工去工厂买东西，卖给顾客
  */
-public class daigou implements InvocationHandler {
+public class daigouCompany implements InvocationHandler {
     //被代理对象
     private Object factory;
-    public daigou() {
+    public daigouCompany() {
     }
 
-    public daigou(Object factory) {
+    public daigouCompany(Object factory) {
         this.factory = factory;
     }
 
