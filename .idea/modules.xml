@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/04_spring_DI/04_spring_DI.iml" filepath="$PROJECT_DIR$/04_spring_DI/04_spring_DI.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_spring_anno_Ioc/05_spring_anno_Ioc.iml" filepath="$PROJECT_DIR$/05_spring_anno_Ioc/05_spring_anno_Ioc.iml" />
       <module fileurl="file://$PROJECT_DIR$/06_account_xmlioc/06_account_xmlioc.iml" filepath="$PROJECT_DIR$/06_account_xmlioc/06_account_xmlioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/Proxy/Proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflect/reflect.iml" filepath="$PROJECT_DIR$/reflect/reflect.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring.iml" filepath="$PROJECT_DIR$/.idea/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/02_spring_Ioc/spring_Ioc.iml" filepath="$PROJECT_DIR$/02_spring_Ioc/spring_Ioc.iml" />

@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 
+
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.annotation.Resource;
@@ -91,7 +92,6 @@ public class testServiceImpl implements testService {
     public testServiceImpl() {
         System.out.println("ServiceImpl对象创建了");
     }
-
 
     public void getaccout() {
 
