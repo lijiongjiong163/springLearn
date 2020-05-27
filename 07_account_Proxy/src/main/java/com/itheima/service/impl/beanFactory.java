@@ -1,13 +1,11 @@
 package com.itheima.service.impl;
 
-import com.itheima.domain.Account;
 import com.itheima.service.IAccountService;
 import com.itheima.utils.transactionManager;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.util.List;
 
 public class beanFactory {
     private AccountServiceImpl accountService;

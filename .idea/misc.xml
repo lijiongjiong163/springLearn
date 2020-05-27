@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/reflect/pom.xml" />
         <option value="$PROJECT_DIR$/Proxy/pom.xml" />
         <option value="$PROJECT_DIR$/07_account_Proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/08_account_AOP/pom.xml" />
       </list>
     </option>
   </component>
