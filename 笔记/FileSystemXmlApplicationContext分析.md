@@ -1,0 +1,7 @@
+## FileSystemXmlApplicationContext分析
+
+首先看继承关系图：
+
+![](assets/FileSystemXmlApplicationContext继承关系.png)
+
+看一看ApplicationContext和FileSystemXmlApplicationContext的关系，其实，ApplicationContext的主要功能已经在AbstractXmlApplicationContext中实现了。
