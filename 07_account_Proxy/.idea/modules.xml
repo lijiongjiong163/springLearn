@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/06_account_xmlioc.iml" filepath="$PROJECT_DIR$/06_account_xmlioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_account_Proxy.iml" filepath="$PROJECT_DIR$/07_account_Proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/day02_eesy_02account_xmlioc.iml" filepath="$PROJECT_DIR$/day02_eesy_02account_xmlioc.iml" />
     </modules>
   </component>

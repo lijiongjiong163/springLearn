@@ -13,5 +13,6 @@ public class IAccountServiceImplTest extends TestCase {
         IAccountService haha =  classPathXmlApplicationContext.getBean("haha",IAccountService.class);
 
         haha.saveAccount();
+        haha.updateAccount(10086);
     }
 }

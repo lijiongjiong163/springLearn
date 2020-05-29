@@ -20,28 +20,28 @@ public class Logger {
     private void pt1(){
         System.out.println("不知道这方法有屁用");
     }
-  //  @Before("pt1()")
+    @Before("pt1()")
     public void beforePrintLog(){
         System.out.println("前置通知开始记录日志！！！");
     }
     /**
      * 后置通知
      */
-   // @AfterReturning("pt1()")
+    @AfterReturning("pt1()")
     public void afterReturningPrintLog(){
         System.out.println("后置通知开始记录日志！！！");
     }
     /**
      * 异常通知
      */
-  //  @AfterThrowing("pt1()")
+    @AfterThrowing("pt1()")
     public void throwingPrintLog(){
         System.out.println("异常通知开始记录日志！！！");
     }
     /**
      * 最终通知
      */
-   // @After("pt1()")
+    @After("pt1()")
     public void finalPrintLog(){
         System.out.println("最终通知开始记录日志！！！");
     }

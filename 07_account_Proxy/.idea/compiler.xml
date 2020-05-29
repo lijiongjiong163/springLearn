@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="06_account_xmlioc" />
         <module name="day02_eesy_02account_xmlioc" />
+        <module name="07_account_Proxy" />
+        <module name="06_account_xmlioc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="06_account_xmlioc" target="6" />
+      <module name="07_account_Proxy" target="6" />
       <module name="day02_eesy_02account_xmlioc" target="1.8" />
     </bytecodeTargetLevel>
   </component>

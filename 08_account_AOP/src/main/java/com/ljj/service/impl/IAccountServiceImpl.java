@@ -10,7 +10,7 @@ public class IAccountServiceImpl implements IAccountService {
     }
 
     public void updateAccount(int i) {
-
+        System.out.println("执行updateAccount"+i);
     }
 
     public int deleteAccount() {
