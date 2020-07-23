@@ -39,3 +39,13 @@ Resource resource = new ClassPathResource("bean.xml");
 画个图如下：
 
 ![](assets/XmlFactoryBean.png)
+
+所以，自定义IoC容器的方法就是以下几个步骤：
+
+1.创建IoC实现类对象（DefaultListableBeanFactory）
+
+2.创建XmlBeanDefinitionReader对象，将IoC对象聚合进去
+
+3.创建ClassPathResource对象，将BeanDefinition封装进去
+
+4.调用ClassPathResource对象的loadBeanDefinitions方法加载BeanDefinition
