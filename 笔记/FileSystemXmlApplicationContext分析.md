@@ -12,7 +12,7 @@
 
 举例：**FileSystemXmlApplicationContext**
 
-![1595316640395](C:\Users\LiJiong\AppData\Roaming\Typora\typora-user-images\1595316640395.png)
+![1595316640395](D:\ideaworkspace\springLearn\笔记\assets\1595316640395.png)
 
 ​	意思就是FileSystemXmlApplicationContext有5个父类，组成一个巨大的类，各司其职，其中有些类在最上面的父类中有抽象方法 ，但是都在下面有实现。
 
