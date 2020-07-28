@@ -34,6 +34,7 @@ public class ClassPathXmlApplicationContext extends AbstractXmlApplicationContex
     public FileSystemXmlApplicationContext（）{
         //1.调用refresh()方法刷新容器
     }
+    //这个方法其实也是在refresh的时候被调用的
     protected Resource getResourceByPath(String path) {
         //2.读取配置文件
     }
